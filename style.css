@@ -10,8 +10,19 @@ body {
   color: #111111;
 }
 ::selection {
-  background: #1e91d6;
+  background: #af2826;
   color: #fff;
+}
+
+.customnavbar {
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.add-border {
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .mwcontainer {
@@ -28,14 +39,14 @@ a {
   user-select: none;
 }
 a:hover {
-  color: #11111190;
+  color: #af2826;
 }
 
 .cursor {
   z-index: 200;
   width: 20px;
   height: 20px;
-  border: 2px solid #f03131;
+  border: 2px solid #af2826;
   border-radius: 50%;
   position: absolute;
   transition-duration: 100ms;
