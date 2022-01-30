@@ -14,6 +14,10 @@ body {
   color: #fff;
 }
 
+.rounded12 {
+  border-radius: 12px !important;
+}
+
 .customnavbar {
   position: sticky;
   -webkit-position: sticky;
@@ -87,5 +91,33 @@ a:hover {
   }
   .fs24 {
     font-size: 20px;
+  }
+}
+
+.cover-container {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+.coverbg {
+  background-image: url("assets/casestudy/reswitch/cover.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .cover-container {
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .cover-container {
+    width: 100%;
+    height: 60vh;
   }
 }
