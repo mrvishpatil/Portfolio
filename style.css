@@ -64,6 +64,15 @@ a:hover {
   animation: animate1 0.5s infinite alternate;
   pointer-events: none;
 }
+.socialcontainer {
+  border-radius: 50px;
+  background-color: white;
+}
+
+.socialcontainer :hover {
+  border-radius: 50px;
+  background-color: #00000008;
+}
 
 .fs14 {
   font-size: 14px;
